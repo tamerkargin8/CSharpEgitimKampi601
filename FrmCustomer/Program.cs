@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CSharpEgitimKampi601
+namespace FrmCustomer
 {
     internal static class Program
     {
@@ -16,7 +16,7 @@ namespace CSharpEgitimKampi601
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmCustomer());
+            Application.Run(new Form1());
         }
     }
 }
